@@ -1,6 +1,5 @@
 import 'package:destini_challenge/story_brain.dart';
 import 'package:flutter/material.dart';
-import 'story_brain.dart';
 
 void main() => runApp(const Destini());
 
