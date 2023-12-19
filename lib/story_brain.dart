@@ -4,32 +4,32 @@ class StoryBrain {
   final List<Story> _storyData = [
     Story(
         storyTitle:
-            'Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: "Need a ride, boy?".',
-        choice1: 'I\'ll hop in. Thanks for the help!',
-        choice2: 'Better ask him if he\'s a murderer first.'),
+            'A tu coche se le pinchó una rueda en una carretera sinuosa en medio de la nada sin cobertura de teléfono móvil. Decides hacer autostop. Una camioneta oxidada se detiene con un ruido sordo a tu lado. Un hombre con sombrero de ala ancha y ojos desalmados te abre la puerta del pasajero y te pregunta: "¿Necesitas que te lleve, muchacho?".',
+        choice1: 'Entraré. ¡Gracias por la ayuda!',
+        choice2: 'Será mejor que primero le preguntes si es un asesino.'),
     Story(
-        storyTitle: 'He nods slowly, unphased by the question.',
-        choice1: 'At least he\'s honest. I\'ll climb in.',
-        choice2: 'Wait, I know how to change a tire.'),
-    Story(
-        storyTitle:
-            'As you begin to drive, the stranger starts talking about his relationship with his mother. He gets angrier and angrier by the minute. He asks you to open the glovebox. Inside you find a bloody knife, two severed fingers, and a cassette tape of Elton John. He reaches for the glove box.',
-        choice1: 'I love Elton John! Hand him the cassette tape.',
-        choice2: 'It\'s him or me! You take the knife and stab him.'),
+        storyTitle: "Él asiente lentamente, impasible ante la pregunta.",
+        choice1: 'Al menos es honesto. Yo subiré.',
+        choice2: "Espera, sé cómo cambiar una llanta."),
     Story(
         storyTitle:
-            'What? Such a cop out! Did you know traffic accidents are the second leading cause of accidental death for most adult age groups?',
-        choice1: 'Restart',
+            'Cuando empieza a conducir, el extraño empieza a hablar de su relación con su madre. Se enoja cada vez más. Te pide que abras la guantera. En su interior encontrarás un cuchillo ensangrentado, dos dedos cortados y una cinta de casete de Elton John. Él alcanza la guantera.',
+        choice1: '¡Me encanta Elton John! Pásale la cinta de casete.',
+        choice2: '¡Somos él o yo! Tomas el cuchillo y lo apuñalas.'),
+    Story(
+        storyTitle:
+            '¿Qué? ¡Qué policía! ¿Sabías que los accidentes de tráfico son la segunda causa de muerte accidental para la mayoría de los grupos de edad adulta?',
+        choice1: 'Reanudar',
         choice2: ''),
     Story(
         storyTitle:
-            'As you smash through the guardrail and careen towards the jagged rocks below you reflect on the dubious wisdom of stabbing someone while they are driving a car you are in.',
-        choice1: 'Restart',
+            'A medida que atraviesas la barandilla y te precipitas hacia las rocas irregulares que hay debajo, reflexionas sobre la dudosa sabiduría de apuñalar a alguien mientras conduce el coche en el que estás.',
+        choice1: 'Reanudar',
         choice2: ''),
     Story(
         storyTitle:
-            'You bond with the murderer while crooning verses of "Can you feel the love tonight". He drops you off at the next town. Before you go he asks you if you know any good places to dump bodies. You reply: "Try the pier".',
-        choice1: 'Restart',
+            'Te vinculas con el asesino mientras cantas versos de "¿Puedes sentir el amor esta noche?". Te deja en el siguiente pueblo. Antes de irte, te pregunta si conoces algún buen lugar para tirar cadáveres. Tu respondes: "Prueba el muelle".',
+        choice1: 'Reanudar',
         choice2: '')
   ];
 
